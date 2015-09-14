@@ -1,0 +1,5 @@
+{"content":"https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4","timestamp":{"$$date":1442213403074},"_id":"LJVDn1RFiDOCuXZE"}
+{"content":"https://github.com/scottwrobinson/camo","timestamp":{"$$date":1442213856976},"_id":"W84nd8FfNfd1ZPVI"}
+{"content":"https://github.com/louischatriot/nedb#sorting-and-paginating","timestamp":{"$$date":1442213598446},"_id":"Wk4SHeeU4FUnWBZo"}
+{"content":"localhost:8080/api/clips","timestamp":{"$$date":1442213560498},"_id":"vwZlXmafpNMchUdR"}
+{"content":"// get all the clips (accessed at GET http://localhost:8080/api/clips)     .get(function(req, res) {         db.find({}).sort({timestamp: -1}).exec(function (err, clips) {             if (err)                 res.send(err);              res.json(clips);         });     });","timestamp":{"$$date":1442213780057},"_id":"yYZyHMmypcVf80eN"}
