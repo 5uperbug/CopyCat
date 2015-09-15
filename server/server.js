@@ -71,8 +71,8 @@ router.route('/clips/:search_string')
 
     // get the clips which contains the search_string (accessed at GET http://localhost:8080/api/clips/:search_string)
     .get(function(req, res) {
-        console.log(req.params.search_string);
-        db.find({ content: /req.params.search_string/ }, function (err, clips) {
+        var regex = new RegExp(req.params.search_string);   //create a new Regex object to parse the varible as a pattern
+        db.find({ content: regex }, function (err, clips) {
             if (err)
                 res.send(err);
 
