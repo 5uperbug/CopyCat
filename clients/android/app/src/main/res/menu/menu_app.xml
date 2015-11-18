@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.copycat.android.activity.AppActivity">
+    <item android:id="@+id/action_toggle_toast"
+        android:title="@string/action_toggle_toast"
+        android:showAsAction="never"
+        android:checkable="true"
+        android:checked="true"/>
+    <item android:id="@+id/action_toggle_service"
+        android:title="@string/action_toggle_service"
+        android:showAsAction="never"
+        android:checkable="true"
+        android:checked="true"/>
+</menu>

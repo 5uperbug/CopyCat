@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CopyCat</string>
+
+    <string name="action_toggle_toast">Show toasts</string>
+    <string name="action_toggle_service">Enable CopyCat</string>
+    <string name="title_activity_app">CopyCat</string>
+</resources>
